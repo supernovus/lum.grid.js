@@ -1,0 +1,31 @@
+{
+  "name": "@lumjs/grid",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "exports":
+  {
+    ".": "./lib/index.js",
+    "./grid": "./lib/grid.js",
+    "./resolvers": "./lib/resolvers.js",
+    "./package.json": "./package.json"
+  },
+  "license": "MIT",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/supernovus/lum.grid.js.git"
+  },
+  "dependencies": 
+  {
+    "@lumjs/core": "^1.12.0"
+  },
+  "devDependencies":
+  {
+    "@lumjs/tests": "^1.8.1"
+  },
+  "scripts":
+  {
+    "test": "lumtest.js",
+    "build-docs": "jsdoc -c ./jsdoc.json"
+  }
+}
